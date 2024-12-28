@@ -1,5 +1,4 @@
 const processArray = (nums) => {
-	console.log({ nums });
 	if (nums.length <= 2) {
 		return `${nums.join(",")},`;
 	}
